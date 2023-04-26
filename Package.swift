@@ -16,7 +16,7 @@ let package = Package(
         .iOSApplication(
             name: "Fruitnesia",
             targets: ["AppModule"],
-            bundleIdentifier: "com.evelyn.salakku",
+            bundleIdentifier: "com.evelyn.fruitnesia",
             teamIdentifier: "86T9R8CK49",
             displayVersion: "1.0",
             bundleVersion: "1",
@@ -32,7 +32,8 @@ let package = Package(
             ],
             capabilities: [
                 .photoLibraryAdd(purposeString: "We want to save the card to your photos library")
-            ]
+            ],
+            appCategory: .education
         )
     ],
     targets: [
